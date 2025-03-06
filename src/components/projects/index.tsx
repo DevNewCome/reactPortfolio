@@ -63,8 +63,8 @@ export function Projects() {
             title: 'DevCurrency',
             description: 'projeto feito em react utilizando uma API que mostrar o valor atual das criptomoedas, e seus detalhes naquele dia/periodo, como sua valorização e desvalorização.',
             img: cripto,
-            git: 'https://github.com/meuprojeto2',
-            siteUrl: 'https://meusite.com/projeto2',
+            git: 'https://github.com/DevNewCome/cripto',
+            siteUrl: 'https://seecripto.netlify.app/',
             techs: [reacticon, jsicon, htmlicon]
         },
         { 
@@ -124,8 +124,9 @@ export function Projects() {
                             
                             {item.img && <img className='mx-auto h-72' src={item.img} alt={item.title} />}
                             <div className='flex flex-col justify-center gap-2'>
-                                    <a className='font-bold w-full rounded hover:bg-purple-400 max-w-56 mx-auto mt-4 bg-purple-500' href={item.git} target='_blank' >GitHub</a>  
+                                    <a className='font-bold w-full rounded hover:bg-purple-400 max-w-56 mx-auto mt-4 bg-purple-500' href={item.git} target='_blank' >GitHub</a>      
                                     <a className='font-bold w-full rounded hover:bg-purple-400 max-w-56 mx-auto bg-purple-500' href={item.siteUrl} target='_blank' >Page</a>
+                               
                                 <button
                                     className='font-bold w-full rounded hover:bg-blue-400 max-w-56 mx-auto bg-blue-500 mb-3'
                                     onClick={() => handleOpenModal(item)}
