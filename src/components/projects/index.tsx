@@ -69,12 +69,12 @@ export function Projects() {
         },
         { 
             id: 5,
-            name: 'shop',
-            title: 'Shop e-Commerce',
-            description: 'Projeto feito em react e tailwind, é um projeto template que simula uma página de E-commerce e algumas de suas funcionalidades como adicionar no carrinho e renderizar os produtos no carrinho',
+            name: 'Veicule Shopping',
+            title: 'Veicule Shopping',
+            description: 'Nesse projeto você pode adicionar um veiculo para venda de sua preferencia. e consultar outros veiculos a venda.',
             img: shop,
-            git: 'https://github.com/meuprojeto2',
-            siteUrl: 'https://meusite.com/projeto2',
+            git: 'https://github.com/DevNewCome/webCars',
+            siteUrl: 'https://foundcars.netlify.app/',
             techs: [reacticon, jsicon, htmlicon]
         },
         { 
